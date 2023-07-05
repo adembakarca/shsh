@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Mobil Canlı Sıcak Sohbetler Hattı | Sohbet Hattı - Canlı Sohbet - Sıcak Sohbet</title>
+	 <style>
+      html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+	overflow-x: hidden;
+	box-sizing: border-box;
+ }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	-webkit-backface-visibility: hidden;
+	color: #151515;
+}
+h1,
+h1 a {
+	font-size: 3.157em;
+	line-height: 1.2em;
+}
+h2,
+h2 a {
+	font-size: 2.369em;
+	line-height: 1.2em;
+}
+h3,
+h3 a {
+	font-size: 1.777em;
+	line-height: 1.2em;
+}
+h4,
+h4 a {
+	font-size: 1.333em;
+	line-height: 1.2em;
+}
+h5,
+h5 a {
+	font-size: 1em;
+	line-height: 1.2em;
+}
+h6,
+h6 a {
+	font-size: 0.75em;
+	line-height: 1.2em;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	-webkit-backface-visibility: hidden;
+}
+iframe,
+embed,
+object,
+video {
+	max-width: 100%;
+}
+input,
+textarea {
+    outline:none;
+	outline: 0;
+}
+:active, :hover, :focus {
+    outline: 0 !important;
+    outline-offset: 0 !important;
+}
+input[type="text"]:focus {
+	outline: none;
+}
+a, a:visited {
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+	   color: #2d2d2c;     
+}
+a:hover {
+	text-decoration: none;
+}
+a:active,
+a:focus {
+	outline: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+html{
+	min-height: 100%;
+}
+body{
+	background: rgb(9,13,43);
+    background: linear-gradient(187deg, rgb(158 37 132) 0%, rgb(56 5 49) 100%);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.bg1{
+	position: fixed;
+	top: 0;
+	left: 0;
+	max-width: 40%;
+}
+.bg1 img{
+	max-width: 100%;
+	height: auto;
+}
+.bg2{
+	position: fixed;
+	top: 0;
+	right: 0;
+	max-width: 40%;
+}
+.bg2 img{
+	max-width: 100%;
+	height: auto;
+}
+.container{
+	max-width: 1000px;
+	margin:0 auto;
+}
+.logo{
+/*	background: url(img/logo_bg.png);*/
+	background-repeat: no-repeat;
+	height: 161px;
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 30%;
+	text-align: center;
+	float: left;
+}
+.logo img{
+	margin-left: 30px;
+	max-width: 70%;
+	margin-top: 10px;
+}
+header{
+	position: relative;
+}
+header nav{
+	float: right;
+	max-width: 70%;
+}
+header nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding-top: 25px;
+}
+header nav ul li{
+	padding: 0 20px;
+}
+header nav ul li a{
+	color: #ffffff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 14px;
+    display: block;
+    transition: 0.2s all linear;
+}
+header nav ul li a:hover{
+	color: #ffd595;
+}
+.clear{
+	clear: both;
+}
+.headtitle{
+	display: flex;
+	flex-wrap: wrap;
+}
+.headleftborder{
+	width: 33%;
+	height: 40px;
+	border-top: 2px dashed #ffd595;
+	border-bottom: 2px dashed #ffd595;
+	opacity: 0.4;
+}
+.headrightborder{
+	width: 33%;
+	height: 40px;
+	border-top: 2px dashed #ffd595;
+	border-bottom: 2px dashed #ffd595;
+	opacity: 0.4;
+}
+.headtitle h1{
+	color: #fff;
+	font-size: 1.6em;
+	width: 34%;
+	text-align: center;
+	line-height: 40px;
+}
+.headtitle h1 i{
+	margin:0 10px;
+	color: #ffc66f;
+}
+.headtitle b{
+	color: #fbd395;
+}
+.homestext{
+	margin:25px 0;
+	padding: 20px 10px;
+	color: #fff;
+	font-size: 1.1em;
+	line-height: 25px;
+	text-align: center;
+	background: rgb(9,13,43);
+    background: linear-gradient(90deg, rgb(114 24 97) 0%, rgb(114 24 97) 100%);
+}
+.box_live{
+	margin-top: 40px;
+	border:3px dotted  #fbd395;
+	height: 250px;
+	display: inline-flex;
+	flex-wrap: wrap;
+	position: relative;
+	width: 100%;
+}
+.box-left{
+	width: 70%;
+	position: relative;
+}
+.btn_text{
+	top: -30px;
+	left: 25%;
+	background: rgb(112,88,88);
+    background: linear-gradient(
+90deg
+, rgb(46 234 148) 0%, rgb(27 165 85) 27%, rgb(32 182 101) 71%, rgb(47 217 129) 100%);
+    
+	color: #fff;
+	width: 40%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 10px;
+	position: absolute;
+	font-weight: bold;
+}
+.btn_text h2{
+	font-size: 18px;
+	color: #fff;
+	line-height: 60px;
+}
+.box-right{
+	width: 30%;
+	text-align: right;
+	position: relative;
+}
+.box-right img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	max-height: 135%;
+}
+.border-clear{
+	position: absolute;
+    height: 3px;
+    top: -3px;
+    right: 5%;
+    width: 20%;
+    background: #8c1f75;
+}
+.box-left h3{
+	margin-top: 40px;
+	width: 90%;
+	text-align: center;
+	line-height: 60px;
+	font-size: 1.6em;
+	color: #fff;
+	font-family: 'Reggae One', cursive;
+	margin-bottom: 10px;
+}
+.box-button{
+	display: block;
+    width: 40%;
+    padding: 15px;
+    background: radial-gradient(circle, #f9a21e 0%, #b77511 100%);
+    border-radius: 10px;
+    position: relative;
+    left: 25%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.box-button i{
+	margin-right: 10px;	
+}
+.list-item{
+	padding: 40px 0;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	z-index: 1
+}
+.list{
+	min-height: 280px;
+	width: 25%;
+	padding: 5px;
+}
+.wrap{
+	background: #570f4b;
+	width: 100%;
+	height: 100%;
+}
+.wrap .item-img img{
+	padding: 9px;
+   background: linear-gradient(353deg, rgba(143,49,126,1) 0%, rgba(199,114,97,1) 100%);
+   background-size: 400% 400%;
+    width: 100%;
+    height: 280px;
+    animation: gradient 15s ease infinite;
+    -webkit-animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
+   
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.list-content{
+	display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    background: linear-gradient( 
+45deg
+ , #b34459, #560e4a);
+}
+.list-left {
+    width: 30%;
+    text-align: center;
+    padding: 1px;
+    font-size: 0.8em;
+}
+.list-left b{
+    color: #ddd;
+    margin-bottom: 9px;
+    display: block;
+}
+.list-left img{
+	max-width: 100%;
+    margin-top:20px;
+	animation: slide 1s ease-out;
+	animation-iteration-count:infinite;
+}
+@keyframes slide {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+.list-right{
+width: 70%;
+    text-align: left;
+    padding-left: 10px;
+
+}
+.list-right b,span{
+	display: block;
+}
+.list-right a b{
+	color: #ffeb3b;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-style: italic;
+    padding-bottom: 4px;
+}
+strong.green {
+    color: #b9ef7a;
+}
+strong.red{
+    color:#ff5722
+}
+.list-right a span{
+	color: #fff;
+	padding: 5px 0
+}
+@keyframes colorchange
+    {
+      0%   {background: linear-gradient(353deg, rgba(143,49,126,1) 0%, rgba(199,114,97,1) 100%);}
+      50%  {background: linear-gradient(353deg, rgba(199,114,97,1) 0%, rgba(143,49,126,1) 100%);}
+      100% {background: linear-gradient(353deg, rgba(143,49,126,1) 0%, rgba(199,114,97,1) 100%);}
+   }
+
+    @-webkit-keyframes colorchange
+    {
+     0%   {background: linear-gradient(353deg, rgba(143,49,126,1) 0%, rgba(199,114,97,1) 100%);}
+      50%  {background: linear-gradient(353deg, rgba(199,114,97,1) 0%, rgba(143,49,126,1) 100%);}
+      100% {background: linear-gradient(353deg, rgba(143,49,126,1) 0%, rgba(199,114,97,1) 100%);}
+   }
+
+  footer{
+  	padding: 20px 0;
+    background: #570f4b;
+    border-top: 4px dashed #3c0635;
+  }
+  footer{
+  	text-align: center;
+  	line-height: 24px;
+  	color: #eee;
+  }
+
+  @media only screen and (max-width: 600px){
+
+  	.list{
+  		width: 100%;
+  		height: auto;
+  	}
+    .list-left img{
+        max-width: 100%;
+        margin-top: 10px;
+        animation: slide 1s ease-out;
+        animation-iteration-count:infinite;
+    }
+
+  	.headtitle h1 {
+    color: #fff;
+    font-size: 0.8em;
+    width: 86%;
+    text-align: center;
+    line-height: 26px;
+}
+.headleftborder {
+    width: 7%;
+    height: 26px;
+    border-top: 2px dashed #ffd595;
+    border-bottom: 2px dashed #ffd595;
+    opacity: 0.4;
+}
+
+.headrightborder {
+    width: 7%;
+    height: 26px;
+    border-top: 2px dashed #ffd595;
+    border-bottom: 2px dashed #ffd595;
+    opacity: 0.4;
+}
+.wrap .item-img img{
+	height: auto;
+}
+
+.list-item {
+    padding: 11px 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+}
+
+.homestext {
+    margin: 4px 0;
+    padding: 6px 4px;
+    color: #fff;
+    font-size: 0.8em;
+    line-height: 18px;
+    text-align: left;
+    background: rgb(9,13,43);
+    background: linear-gradient(
+90deg
+, rgb(114 24 97) 0%, rgb(114 24 97) 100%);
+}
+
+.logo img {
+    margin-left: 0;
+    max-width: 47%;
+    margin-top: 3px;
+}
+.logo {
+  /*background: url(img/logo_bg.png);*/
+    background-repeat: no-repeat;
+    height: auto;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-bottom: 10px;
+    padding: 8px 0;
+}
+header nav {
+    float: right;
+    max-width: 70%;
+    display: none;
+}
+
+
+
+  }
+    </style>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Reggae+One&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Sohbet Hattı, Canlı Sohbet, Sıcak Sohbet, Ateşli Sohbet">
+	<meta name="description" content="Mobil Canlı Sıcak Sohbetler Hattı İle Ateşli Sohbetler Sizleri Bekliyor">
+</head>
+<body>
+	<div class="bg1"><img src="https://i.ibb.co/pZkZFMQ/bg1.png" alt=""></div>
+	<div class="bg2"><img src="https://i.ibb.co/cFtxgs9/bg2.png" alt=""></div>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<a href="#"><img src="https://i.ibb.co/JcHjhnq/logo.png" alt=""></a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#">ANA SAYFA</a></li>
+					<li><a href="#">Çok Arananlar</a></li>
+					<li><a href="#">Bilgilendirme</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="clear"></div>
+	<div class="headtitle">
+		<div class="headleftborder"></div>
+		<h1>
+			<i class="fab fa-phoenix-framework"></i> Telefonda <b>Canlı Sohbet Hattı</b><i class="fab fa-phoenix-framework"></i>
+		</h1>
+		<div class="headrightborder"></div>
+	</div>
+	<div class="container">
+		<div class="list-item">
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/xjRr4VR/3.jpg" alt="Banu">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>BANU</b><strong class="green">Şu an musait</strong><span>Tel: 003225889176 Dahili : 617</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/khtHJKV/7.jpg" alt="Ebru">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>EBRU</b><strong class="red">Musait değil</strong><span>Tel: 003225889176 Dahili : 417</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/8PgL4px/17.jpg" alt="Bahar">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>BAHAR</b><strong class="red">Musait değil</strong><span>Tel: 003225889176 Dahili : 504</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/vdRDtKP/26.jpg" alt="Alev">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>ALEV</b><strong class="red">Musait değil</strong><span>Tel: 003225889176 Dahili : 423</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/P4xkxY8/41.jpg" alt="Eda">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>EDA</b><strong class="red">Musait değil</strong><span>Tel: 003225889176 Dahili : 505</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/rMcCP4G/51.jpg" alt="Sibel">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>SIBEL</b><strong class="green">Şu an musait</strong><span>Tel: 003225889176 Dahili : 511</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/jGmfnX5/53.jpg" alt="Nimet">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>NIMET</b><strong class="green">Şu an musait</strong><span>Tel: 003225889176 Dahili : 508</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/fCFgsVQ/65.jpg" alt="Elif">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>ELIF</b><strong class="red">Musait değil</strong><span>Tel: 003225889176 Dahili : 422</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/ZfYR3FJ/68.jpg" alt="Merve">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>MERVE</b><strong class="red">Musait değil</strong><span>Tel: 003225889176 Dahili : 501</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/1GJj018/76.jpg" alt="Ayca">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>AYCA</b><strong class="red">Musait değil</strong><span>Tel: 003225889176 Dahili : 503</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/HGwDtLx/77.jpg" alt="Gamze">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>GAMZE</b><strong class="green">Şu an musait</strong><span>Tel: 003225889176 Dahili : 705</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/fSCRbFb/98.jpg" alt="Tugba">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>TUGBA</b><strong class="red">Musait değil</strong><span>Tel: 003225889176 Dahili : 424</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/NspjMFN/100.jpg" alt="Eda">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>EDA</b><strong class="red">Musait değil</strong><span>Tel: 003225889176 Dahili : 502</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/v1DqyMb/106.jpg" alt="Aleyna">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>ALEYNA</b><strong class="red">Musait değil</strong><span>Tel: 003225889176 Dahili : 425</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/bN1t9ss/108.jpg" alt="Arzu">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>ARZU</b><strong class="green">Şu an musait</strong><span>Tel: 003225889176 Dahili : 693</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/RS9Q7jj/115.jpg" alt="Kumsal">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>KUMSAL</b><strong class="green">Şu an musait</strong><span>Tel: 003225889176 Dahili : 912</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/3z6yL0G/116.jpg" alt="Ebru">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>EBRU</b><strong class="green">Şu an musait</strong><span>Tel: 003225889176 Dahili : 627</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="list">
+				<div class="wrap">
+					<a href="tel:003225889176" class="item-img">
+						<img src="https://i.ibb.co/fH8kX86/121.jpg" alt="Pinar">
+					</a>
+					<div class="list-content">
+						<div class="list-right">
+							<a href="tel:003225889176"><b>PINAR</b><strong class="green">Şu an musait</strong><span>Tel: 003225889176 Dahili : 706</span></a>
+						</div>
+						<div class="list-left">
+							<a href="tel:003225889176"><b>ARA BENİ</b><img src="https://i.ibb.co/yQ4SRR4/phoneicon.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+					</div>
+
+		<div class="homestext">
+			<p>
+				Sitemiz üzerinden birçok bayanla telefon üzerinden sohbet edebilir, onlarla tanışabilir erotik konular hakkında onlarla konuşabilirsiniz. Tercih ettiğiniz herhangi bir bayanın üzerine tıklayarak onu arayabilirsiniz!
+			</p>
+		</div>
+
+	</div>
+	<footer>
+		<div class="container">
+			Sohbet sitemiz 18 yaş üzeri reşit olan kullanıcılar için hazırlanmıştır.<br />
+			<p>Tüm Haklar Saklıdır @2021</p>
+		</div>
+	</footer>
+</html>
